@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overmind"
+version = "0.1.0"
+description = "Overmind MVP: crawler + index + semantic search + distributed scheduling"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.scripts]
+overmind = "overmind.main:main"
+overmind-demo = "overmind.demo:main"
+overmind-where = "overmind.where:main"
+overmind-web = "overmind.web:main"
+overmind-export = "overmind.export:main"
