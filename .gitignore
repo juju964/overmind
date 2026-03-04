@@ -1,0 +1,14 @@
+# Python-specific ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+build/
+dist/
+
+# Data/cache directories
+data/
+cache/
